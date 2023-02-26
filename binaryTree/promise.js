@@ -1,0 +1,1 @@
+Promise.reject(false).then((value)=>{console.log('happy')})

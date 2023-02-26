@@ -1,0 +1,55 @@
+1
+2                       3
+    4                5         6           7
+8       9     10     11
+   12             11
+		133
+
+Find the longest zigzagpath length
+
+
+a[] = {3,1,2,9,8,4}
+
+Find a pair(a,b) with the given sum(K).
+
+K = 6
+
+for(let i =0 ;i<arr.length;i++){
+i
+
+
+Largest 3 elements in the array
+Largest K elements in the array
+
+arr= [1,2,3,4,5,6,7,8,9,10]
+
+Let newArr = arr.sort((a,b)=>{return a-b})
+for(let i = newArr.length-1; i<newArr.length-1-k;i–){
+console.log(newArr[i]);
+}
+
+
+a[] = {3,1,2,9,8,4}
+
+Find the next greater element for every element
+
+Student table 
+1: user_id
+2: name
+Other details of student
+
+Semester table
+1: semester_id 
+2: semester name
+Other details of semester
+
+Subject table
+1: sub1
+2: sub2
+3: sub3 
+4: user_id
+5: semester_id
+
+…..
+
+Student.findById(_id).select({username:1}).sort({createdBy: -1})
