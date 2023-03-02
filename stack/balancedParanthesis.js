@@ -1,7 +1,7 @@
 // Given an expression string A, examine whether the pairs and the orders of “{“,”}”, ”(“,”)”, ”[“,”]” are correct in A.
 // Refer to the examples for more clarity.
 
-solve : function(A){
+  function sol(A){
     let stack = [];
     let str = A;
     for(let i = 0; i < str.length; i++){
